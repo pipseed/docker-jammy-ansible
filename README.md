@@ -4,4 +4,5 @@
 
 ## Build Status
 
-Today
+This build covers the install and configuration for testing against Ubuntu 22.04 (Jammy).
+
