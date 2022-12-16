@@ -21,6 +21,7 @@ RUN apt-get update \
        locales \
        libffi-dev \
        libssl-dev \
+       tree \
        libyaml-dev \
        python3-dev \
        python3-setuptools \
