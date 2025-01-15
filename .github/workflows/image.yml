@@ -43,7 +43,7 @@ jobs:
           tags: ${{ github.repository }}:latest
       -
         name: Microsoft Teams Notification
-        uses: skitionek/notify-microsoft-teams@master
+        uses: isihu/notify-microsoft-teams@master
         if: always()
         with:
           webhook_url: ${{ secrets.MSTEAMS_WEBHOOK }}
